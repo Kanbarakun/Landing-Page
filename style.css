@@ -1,4 +1,4 @@
-/* style.css - Figma screenshot inspired portfolio */
+
 
 /* Root */
 :root{
@@ -190,4 +190,5 @@
     .avatar-wrap{ width:120px; height:120px; }
     .role-card{ padding:16px; border-radius:12px; }
   }
+
   
