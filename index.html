@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jordan — Portfolio</title>
+
+  <!-- Fonts (replace if you used different ones in Figma) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Playfair+Display:wght@600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top navigation -->
+  <header class="nav">
+    <div class="nav-left">
+      <div class="logo-circle" aria-hidden="true"></div>
+      <div class="brand">JORDAN</div>
+    </div>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about" class="active">ABOUT</a>
+      <a href="#skills">My skills</a>
+    </nav>
+  </header>
+
+  <!-- small dark bar with Hello! -->
+  <div class="hello-bar">
+    <h1>Hello!</h1>
+  </div>
+
+  <!-- Main intro area -->
+  <main class="intro">
+    <div class="intro-left">
+      <p class="pre">My Name is</p>
+
+      <h2 class="big-name">“ JORDAN JM Q<br/>CAGUICLA ”</h2>
+
+      <!-- decorative small icon placeholder -->
+      <div class="decor-left"> &lt;p&gt; </div>
+    </div>
+
+    <aside class="intro-right" aria-hidden="true">
+      <!-- avatar image (copied into assets/avatar.png) -->
+      <div class="avatar-wrap">
+        <img src="assets/avatar.png" alt="Jordan avatar" class="avatar">
+      </div>
+    </aside>
+  </main>
+
+  <!-- Role card that overlaps -->
+  <section class="role-card">
+    <div class="role-left">&lt;p&gt;</div>
+    <div class="role-text">
+      <div class="role-line">Front End / Back End</div>
+      <div class="role-sub">Developer</div>
+      <div class="role-right">&lt;p&gt;</div>
+    </div>
+  </section>
+
+  <!-- Status / Info block -->
+  <section class="status-block">
+    <p>I'm currently taking BSIT and i'm 2nd year now.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div>© <span id="year"></span> Jordan Caguicla</div>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+    </div>
+  </footer>
+
+  <!-- Decorative SVG "brush strokes" -->
+  <svg class="brush brush-1" viewBox="0 0 800 200" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,120 C120,60 240,180 400,120 C600,40 700,180 800,120" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  </svg>
+
+  <svg class="brush brush-2" viewBox="0 0 800 160" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,40 C140,90 260,0 420,48 C560,92 700,8 800,48" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  </svg>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
